@@ -100,7 +100,7 @@ tidydata$activities <- factor(tidydata$activities,
 
 ## store the dataset 
 
-write.table(tidydata, file = "tidydata.txt")
+write.table(tidydata, file = "tidydata.txt", row.names = FALSE)
 
 ###############################################################################
 
@@ -126,7 +126,7 @@ tidydata_mean <- tidydata %>%
 
 ## store the datasets as .txt 
 
-write.table(tidydata_mean, file = "tidydata_mean.txt")
+write.table(tidydata_mean, file = "tidydata_mean.txt", row.names = FALSE)
 
 
 
